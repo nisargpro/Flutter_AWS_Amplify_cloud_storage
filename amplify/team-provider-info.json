@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-driveclone-dev-165838-authRole",
+      "UnauthRoleArn": "arn:aws:iam::759723466266:role/amplify-driveclone-dev-165838-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::759723466266:role/amplify-driveclone-dev-165838-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-driveclone-dev-165838-deployment",
+      "UnauthRoleName": "amplify-driveclone-dev-165838-unauthRole",
+      "StackName": "amplify-driveclone-dev-165838",
+      "StackId": "arn:aws:cloudformation:ap-south-1:759723466266:stack/amplify-driveclone-dev-165838/6b3c2fa0-8e26-11eb-a341-0a800ab8a1f0",
+      "AmplifyAppId": "d33n32nyq8akzc"
+    },
+    "categories": {
+      "auth": {
+        "driveclone8352977a": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "appName": "driveclone",
+    "roleName": "pinpointLambdaRolee9016667",
+    "cloudformationPolicyName": "cloudformationPolicye9016667",
+    "cloudWatchPolicyName": "cloudWatchPolicye9016667",
+    "pinpointPolicyName": "pinpointPolicye9016667",
+    "authPolicyName": "pinpoint_amplify_e9016667",
+    "unauthPolicyName": "pinpoint_amplify_e9016667",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
